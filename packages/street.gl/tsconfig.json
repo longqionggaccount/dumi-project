@@ -9,11 +9,6 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
-    "paths": {
-      "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"],
-      "packages/street.gl": ["packages/street.gl/*"]
-    },
     "allowSyntheticDefaultImports": true
   },
   "exclude": [

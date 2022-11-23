@@ -20,7 +20,7 @@ https://umijs.github.io/dumi-template/
 │   └── **.**              Site Directory Document
 ├── src                    Component home directory
 │   ├── index.ts           Component registration
-│   └── Foo                Component development
+│   └── Test                Component development
 ├── .eslintrc.js           eslint config
 ├── .fatherrc.ts           father config
 ├── .umirc.ts              dumi config
@@ -31,17 +31,17 @@ The rest of the documents can be consulted by yourself.
 
 ## 🤖 Command introduction
 
-| Name                    | Description               | Remarks                                                                                                            |
-| ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| `npm run start`         | Project begining          | Document usage [dumi](https://github.com/umijs/dumi), component development and documentation development together |
-| `npm run test`          | Component test            | -                                                                                                                  |
-| `npm run test:coverage` | Code coverage review      | -                                                                                                                  |
-| `npm run prettier`      | Code prettier             | -                                                                                                                  |
-| `npm run build`         | Component packaging       | Use [father](https://github.com/umijs/father)                                                                      |
-| `npm run release`       | Component package release | -                                                                                                                  |
-| `npm run docs:build`    | Document packaging        | -                                                                                                                  |
-| `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                 |
-| `npm run deploy`        | Document package release  | -                                                                                                                  |
+| Name                    | Description               | Remarks                                                                                                           |
+| ----------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `npm run start`         | Project begining          | Document usage[dumi](https://github.com/umijs/dumi), component development and documentation development together |
+| `npm run test`          | Component test            | -                                                                                                                 |
+| `npm run test:coverage` | Code coverage review      | -                                                                                                                 |
+| `npm run prettier`      | Code prettier             | -                                                                                                                 |
+| `npm run build`         | Component packaging       | Use[father](https://github.com/umijs/father)                                                                      |
+| `npm run release`       | Component package release | -                                                                                                                 |
+| `npm run docs:build`    | Document packaging        | -                                                                                                                 |
+| `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                |
+| `npm run deploy`        | Document package release  | -                                                                                                                 |
 
 ### README Badge
 
@@ -51,9 +51,20 @@ Using dumi ? Add a README badge to show it off: [![dumi](https://img.shields.io/
 [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
 ```
 
-## Discuss group
+## how to start
 
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ce3439e7-3bf9-4031-b823-6473439ec9e6/kxkiis4c_w1004_h1346.jpeg" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
+启动
+
+yarn
+
+yarn bootstrap
+
+yarn start
+
+打包文档
+
+yarn docs:build
+
+打包组件
+
+yarn build
