@@ -4,7 +4,7 @@
   "scripts": {
     "build": "father-build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@deck.gl/extensions": "^8.8.20",
     "streetscape.gl": "^1.0.13",
     "react": "^16.12.0",
